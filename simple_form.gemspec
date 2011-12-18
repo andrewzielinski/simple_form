@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require "simple_form/version"
 
@@ -10,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = "contact@plataformatec.com.br"
   s.homepage    = "http://github.com/plataformatec/simple_form"
   s.description = "Forms made easy!"
-  s.authors     = ['José Valim', 'Carlos Antônio']
+  s.authors     = ['Jose Valim', 'Carlos Antonio']
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
